@@ -15,15 +15,15 @@ public class Selection {
 
     public int[] sort(int[] data) throws Exception {
         //make all validation checks that input data is OK to be sorted
-        System.out.format("Selection sort constructor %n");
-        System.out.format("Sorting "+ Arrays.toString(data));
+        //System.out.format("Selection sort constructor %n");
+        //System.out.format("Sorting "+ Arrays.toString(data));
         if(data.getClass().isArray() && data instanceof int[]){
             //actual sort
             this.sortIntArr(data);
         }else{
             throw new Exception("Input data is not array or array of type int[]");
         }
-        System.out.println("Sorted: "+ Arrays.toString(data));
+        //System.out.println("Sorted: "+ Arrays.toString(data));
         return data;
     }//sort
 
