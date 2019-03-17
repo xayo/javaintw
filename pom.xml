@@ -72,4 +72,28 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <repository>
+    <id>dev-azure-com-xayo-javaintw</id>
+    <url>https://pkgs.dev.azure.com/xayo/_packaging/javaintw/maven/v1</url>
+    <releases>
+     <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+  
+  <distributionManagement>
+    <repository>
+      <id>dev-azure-com-xayo-javaintw</id>
+      <url>https://pkgs.dev.azure.com/xayo/_packaging/javaintw/maven/v1</url>
+      <releases>
+      <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </distributionManagement>
 </project>
