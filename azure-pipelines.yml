@@ -17,7 +17,7 @@ steps:
   inputs:
     sourceFolder: $(Agent.TempDirectory)
     contents: 'settings.xml'
-    targetFolder: '${HOME}/.m2/'
+    targetFolder: '/home/vsts/.m2/'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
