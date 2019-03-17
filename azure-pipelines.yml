@@ -10,6 +10,14 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 steps:
+- task: DownloadSecureFile@1
+  inputs:
+    secureFile: ''settings.xml'
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: $(Agent.TempDirectory)
+    contents: 'settings.xml'
+    targetFolder: '${HOME}/.m2/'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'

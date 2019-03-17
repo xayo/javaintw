@@ -24,6 +24,7 @@ hs_err_pid*
 
 #target folder
 target/
+mvn/
 .classpath
 .DS_Store
 .project
