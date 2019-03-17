@@ -30,4 +30,5 @@ mvn/
 .project
 .settings
 settings.json
+launch.json
 
