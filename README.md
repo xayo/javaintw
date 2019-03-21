@@ -9,9 +9,17 @@ The project has GitHub to Azure DevOps pipline integration using YAML (pipline a
 The pipeline also has option to publish the resulted artifact in private Azure Artifact store.
 
 # Set-up ste-by-step
-
+1. GitHub project integration with Azure Piplines
+2. Configure Azure Project
+3. Set-up Azure pipline using YAML
+4. Crate Azure Artifact Feed
+5. Generate Artifact credentials
+6. Update the Maven settings.xml with Azure DevOps Artifact Feed credentials.
+7. Store the credentials files in Azure Pipine Library secure file
 
 ## Realted Documents
+* [Azure Piplines](https://azure.microsoft.com/en-us/services/devops/pipelines/)
+* [GitHub integration with Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/github-azurepipelines/)
 * [Build a Maven package using Jenkins and Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/java/labs/mavenpmjenkins/?view=azure-devops)
 * [Configuring a CD pipeline for your Jenkins CI](https://azuredevopslabs.com/labs/vstsextend/jenkins/)
 * [Continuously deploy from a Jenkins build](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/integrate-jenkins-pipelines-cicd?view=azure-devops&tabs=yaml)
@@ -28,4 +36,7 @@ The pipeline also has option to publish the resulted artifact in private Azure A
 * [Using a Jenkinsfile]https://jenkins.io/doc/book/pipeline/jenkinsfile/
 
 ### VS Code
-* [https://code.visualstudio.com/docs/java/java-project#_maven](https://code.visualstudio.com/docs/java/java-project#_maven)
+* [Java Project Management in VS Code](https://code.visualstudio.com/docs/java/java-project#_maven)
+
+### GitHub
+* [Azure Pipelines at GitHub marketplace](https://github.com/marketplace/azure-pipelines)
