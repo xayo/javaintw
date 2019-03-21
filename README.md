@@ -8,6 +8,9 @@ The project has GitHub to Azure DevOps pipline integration using YAML (pipline a
 
 The pipeline also has option to publish the resulted artifact in private Azure Artifact store.
 
+# Set-up ste-by-step
+
+
 ## Realted Documents
 * [Build a Maven package using Jenkins and Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/java/labs/mavenpmjenkins/?view=azure-devops)
 * [Configuring a CD pipeline for your Jenkins CI](https://azuredevopslabs.com/labs/vstsextend/jenkins/)
@@ -22,4 +25,7 @@ The pipeline also has option to publish the resulted artifact in private Azure A
 ### Jenkins
 * [Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
 * [Pipeline Syntax](https://jenkins.io/doc/book/pipeline/syntax/#agent)
-* [Using a Jenkinsfile] https://jenkins.io/doc/book/pipeline/jenkinsfile/
+* [Using a Jenkinsfile]https://jenkins.io/doc/book/pipeline/jenkinsfile/
+
+### VS Code
+* [https://code.visualstudio.com/docs/java/java-project#_maven](https://code.visualstudio.com/docs/java/java-project#_maven)
