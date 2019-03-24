@@ -5,10 +5,6 @@ import java.util.Arrays;
 
 import org.xayo.sort.Selection;
 
-/**
- * Hello world!
- *
- */
 public class App {
     public static void main(String[] args) {
         if (args[0] != null) {

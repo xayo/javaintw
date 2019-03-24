@@ -46,20 +46,3 @@ public class Selection {
     }
 
 }//class
-
-
-/**
-Decision process
-{ 4, 83, 2, 38, 7, 65, 2, 34, 0, 9 };
-current order element - ordEl = [0] val 4;
-startElem[0]
-iterate[] i
-
-ord = 0; start = 0; iter = 0;
-if(start > iter) relace()
-else move()
-
-iterate over existing elements
-
-
- */
