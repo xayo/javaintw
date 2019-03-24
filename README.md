@@ -29,6 +29,7 @@ The pipeline also has option to publish the resulted artifact in private Azure A
 * [Configuring Builds as Code with YAML in Azure Pipelines](https://azuredevopslabs.com/labs/azuredevops/yaml/)
 * [Publish Build Artifacts task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/publish-build-artifacts?view=azure-devops)
 * [Publish Test Results task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/test/publish-test-results?view=azure-devops&tabs=yaml)
+* [Connect Azure Boards to GitHub](https://docs.microsoft.com/en-us/azure/devops/boards/github/connect-to-github?view=azure-devops)
 
 ### Jenkins
 * [Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
