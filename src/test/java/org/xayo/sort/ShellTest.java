@@ -19,15 +19,32 @@ public class ShellTest {
     //
     private int[] dataEmpty = {};
     private int[] dataOneElement = {5};
-    private final Selection select = new Selection();
 
     //sort algorithm
-    private Shell insertion = new Shell(4);
+    private Shell shellsort = new Shell(5);
 
     @Test
     public void sortTest(){
-        insertion.sort(notSortedArr);
-        assertTrue(true);
+        shellsort.sort(notSortedArr);
+        assertTrue(isSorted(notSortedArr));
+    }
+
+    @Test
+    public void sortSortedArrTest(){
+        shellsort.sort(sortedArr);
+        assertTrue(isSorted(sortedArr));
+    }
+
+    @Test
+    public void sortEmptyTest(){
+        shellsort.sort(dataEmpty);
+        assertTrue(isSorted(dataEmpty));
+    }
+
+    @Test
+    public void sortOneTest(){
+        shellsort.sort(dataOneElement);
+        assertTrue(isSorted(dataOneElement));
     }
 
     private boolean isSorted(int[] data){

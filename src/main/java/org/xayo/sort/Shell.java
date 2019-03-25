@@ -18,21 +18,36 @@ public class Shell {
     }
 
     public void sort(int data[]){
-        System.out.println(Arrays.toString(data));
-        int arrL = data.length;
+ //       System.out.println(">> unsorted: "+Arrays.toString(data));
+        int len = data.length;
         while(N>0){
-            System.out.println("N= "+N);
+//            System.out.println("N= "+N);
             for(int step=0;step<N;step++){
-                int cnt = step;
-                while(cnt<arrL){
-                    System.out.print(data[cnt]+" ");
-                    cnt = cnt + N;
-                }
-                System.out.println();
-            }
+                for(int ix=step; ix < len; ix=ix+N){
+                //System.out.print(data[ix]+" "); 
+                    for(int j=step; j<ix; j=j+N)
+                        if(data[j]>data[ix]){
+                            move(data,j,ix,N);
+                            break;
+                        }
+                }//for ix
+                //System.out.println();
+            }//for step
             N--;
-        }
+        }//while N
+//        System.out.println("<< sorted: "+Arrays.toString(data));
+    }//sort
+
+    private void move(int data[], int start, int end, int order){
+        //System.out.println("Replace: " + data[start] + " with " + data[end]);
+        //System.out.println(Arrays.toString(data));
+        int reg = data[end];
+        for(int mv=end;mv>start;mv=mv-order)
+            data[mv] = data[mv-order];
+        data[start] = reg;
+        //System.out.println(Arrays.toString(data));
     }
+
 }//class
 
 
