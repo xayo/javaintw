@@ -27,6 +27,33 @@ public class InsertionTest {
     @Test
     public void sortTest(){
         insertion.sort(notSortedArr);
-        assertTrue(true);
+        assertTrue(isSorted(notSortedArr));
+    }
+
+    @Test
+    public void sortSortedTest(){
+        insertion.sort(sortedArr);
+        assertTrue(isSorted(sortedArr));
+    }
+
+    @Test
+    public void sortOneTest(){
+        insertion.sort(dataOneElement);
+        assertTrue(isSorted(dataOneElement));
+    }
+
+    @Test
+    public void sortEmptyTest(){
+        insertion.sort(dataEmpty);
+        assertTrue(isSorted(dataEmpty));
+    }
+
+    private boolean isSorted(int[] data){
+        int arrLength = data.length;
+        if(arrLength>1)
+            for(int i=1;i<arrLength;i++)
+                if(data[i-1]>data[i])
+                    return false;
+        return true;
     }
 }//class
