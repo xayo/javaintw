@@ -26,6 +26,24 @@ public class MergeTest {
         assertTrue(isSorted(notSortedArr));
     }
 
+    @Test
+    public void sortSortedArrTest(){
+        mergeSort.sort(sortedArr);
+        assertTrue(isSorted(sortedArr));
+    }
+
+    @Test
+    public void sortEmptyTest(){
+        mergeSort.sort(dataEmpty);
+        assertTrue(isSorted(dataEmpty));
+    }
+
+    @Test
+    public void sortOneTest(){
+        mergeSort.sort(dataOneElement);
+        assertTrue(isSorted(dataOneElement));
+    }
+
     private boolean isSorted(int[] data){
         int arrLength = data.length;
         if(arrLength>1)
