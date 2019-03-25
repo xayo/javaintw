@@ -19,7 +19,6 @@ public class InsertionTest {
     //
     private int[] dataEmpty = {};
     private int[] dataOneElement = {5};
-    private final Selection select = new Selection();
 
     //sort algorithm
     private Insertion insertion = new Insertion();
