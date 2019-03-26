@@ -30,21 +30,18 @@ public class QuickTest {
     }
 
     @Test
-    @Disabled
     public void sortSortedArrTest(){
         quickSort.sort(sortedArr);
         assertTrue(isSorted(sortedArr));
     }
 
     @Test
-    @Disabled
     public void sortEmptyTest(){
         quickSort.sort(dataEmpty);
         assertTrue(isSorted(dataEmpty));
     }
 
     @Test
-    @Disabled
     public void sortOneTest(){
         quickSort.sort(dataOneElement);
         assertTrue(isSorted(dataOneElement));
