@@ -34,7 +34,7 @@ The pipeline also has option to publish the resulted artifact in private Azure A
 ### Jenkins
 * [Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
 * [Pipeline Syntax](https://jenkins.io/doc/book/pipeline/syntax/#agent)
-* [Using a Jenkinsfile]https://jenkins.io/doc/book/pipeline/jenkinsfile/
+* [Using a Jenkinsfile] https://jenkins.io/doc/book/pipeline/jenkinsfile/
 
 ### VS Code
 * [Java Project Management in VS Code](https://code.visualstudio.com/docs/java/java-project#_maven)
