@@ -41,3 +41,6 @@ The pipeline also has option to publish the resulted artifact in private Azure A
 
 ### GitHub
 * [Azure Pipelines at GitHub marketplace](https://github.com/marketplace/azure-pipelines)
+
+##Pull requests
+Using a reuiqre team meber to comment from Azure DevOps Services
