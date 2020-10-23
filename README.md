@@ -41,6 +41,3 @@ The pipeline also has option to publish the resulted artifact in private Azure A
 
 ### GitHub
 * [Azure Pipelines at GitHub marketplace](https://github.com/marketplace/azure-pipelines)
-
-## Pull Request Check 
-This is a branch to tech the a pull request using a feature branch
